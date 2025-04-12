@@ -1,0 +1,31 @@
+name: React App CI  # Name of your pipeline
+
+# WHEN this workflow should run
+on:
+  push:
+    branches: [main]  # Run workflow when code is pushed to 'main' branch
+
+# Define JOBS to run
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Use a Linux VM in GitHub's cloud
+
+    steps:
+    # Step 1: Get your code from GitHub repo
+    - uses: actions/checkout@v3
+
+    # Step 2: Set up Node.js (needed to run React app)
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18  # Use Node.js version 18
+
+    # Step 3: Install project dependencies (npm install)
+    - name: Install dependencies
+      run: npm install
+      working-directory: .  # Current directory is root of repo
+
+    # Step 4: Build the React app (npm run build)
+    - name: Build app
+      run: npm run build
+      working-directory: .

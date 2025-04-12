@@ -1,0 +1,121 @@
+/* .welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e6f5ea;
+    text-align: center;
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #167e56;
+  }
+  
+  .sign-in-btn {
+    background-color: #ffffff;
+    border: 1px solid #167e56;
+    color: #167e56;
+    padding: 3px 3px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .content h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+  }
+  
+  .get-started-btn {
+    background-color: #167e56;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+   */
+
+
+   /* Home Page Styling */
+.home-container {
+    text-align: center;
+    background-color: #f0f8f0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Navbar with Small Sign In Button */
+  .navbar {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  
+  .sign-in-btn {
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .sign-in-btn:hover {
+    background-color: darkgreen;
+  }
+  
+  /* Welcome Text */
+  .welcome-text {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  /* Get Started Button */
+  .get-started-btn {
+    background-color: #007f4f;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #005f3f;
+  }
+  
+  /* Delivery Images */
+  .delivery-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .delivery-img {
+    width: 120px; /* Adjust size */
+    height: auto;
+    margin: 0 10px;
+  }
+  
