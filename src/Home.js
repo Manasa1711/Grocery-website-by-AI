@@ -24,7 +24,7 @@
 //   return (
 //     <div className="container">
 //       <nav className="navbar">
-//         <h1>Grocery Price Track</h1>
+//         <h1>Grocery Price Tracker</h1>
 //       </nav>
 
 //       {/* Search Box */}
