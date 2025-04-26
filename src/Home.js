@@ -93,7 +93,7 @@ const Home = () => {
   return (
     <div className="container">
       <nav className="navbar">
-        <h1>Grocery Price </h1>
+        <h1>Grocery Price Tracker </h1>
         <Link to="/cart" className="cart-link">
   🛒 Cart
 </Link>
